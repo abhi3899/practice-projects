@@ -1,0 +1,39 @@
+.app{
+  height:100vh;
+  width:100vw;
+  background-image: linear-gradient(to left top, #ffffff, #efeef0, #e0dde1, #d2ccd1, #c5bbc1);
+  overflow-x: hidden;
+}
+
+.app__header{
+  height:8vh;
+  width: 100vw;
+  background-color:#a200ff;
+  display: flex;
+  align-items: center;
+}
+
+.header__logo{
+  font-size: 30px;
+  color:white;
+  margin-left:5%;
+
+}
+
+.app_button{
+  display: grid;
+  justify-content: center;
+  margin-top:4% ;
+}
+
+.app_button >button{
+  color:white;
+  font-weight: 800;
+  background-color: #ff0080;
+  padding: 12px 30px;
+  border:none;
+  outline:0 !important;
+  border-radius: 50px;
+  
+
+}
